@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceso a Intranet</title>
+    <title>Intranet CARE</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Blanco */
+            color: #333333; /* Color de texto principal */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #3498db; /* Azul */
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5em;
+            text-align: center;
+            max-width: 600px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+
+        button {
+            background-color: #3498db; /* Azul */
+            color: #ffffff; /* Blanco */
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a Mi Intranet</h1>
-    <p>Accede a la intranet haciendo clic en el enlace:</p>
-    <a href="http://www.intranet-care.com/" target="_blank">Ir a Intranet</a>
+    <h1>Intranet CARE</h1>
+    <p>¡Hola, personal del CARE! Gracias por visitar nuestra intranet. Esperamos que encuentres la información que necesitas.</p>
+    <button onclick="window.location.href='http://tu-direccion-ip-local:puerto'">¡Explorar!</button>
 </body>
 </html>
